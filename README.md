@@ -17,7 +17,7 @@ Write-Host "Using .NET notation with WindowsIdentity object [Security.Principal.
 And run it using the following from a ```cmd.exe``` shell:
 
 ```powershell
-runas /user:domain\user "powershell c:\temp\test.ps1"
+runas /user:sammy@hotmail.fr "powershell -noexit -command c:\temp\test.ps1"
 ```
 
 # Credits
