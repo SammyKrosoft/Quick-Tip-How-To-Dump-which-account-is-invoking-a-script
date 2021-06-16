@@ -5,13 +5,13 @@ To try it, write these lines on a ```test.ps1``` quick script:
 
 ```powershell
 Write-Host "Using .NET notation [Environment]::UserName" -ForegroundColor Yellow
-([Environment]::UserDomainName + "\" + [Environment]::UserName) | out-file test.txt
+([Environment]::UserDomainName + "\" + [Environment]::UserName) | out-host
 
 Write-Host "Using Powershell $env system variable $env:username" -ForegroundColor magenta
-"$env:userdomain\$env:username" | out-file -append test.txt
+"$env:userdomain\$env:username" | out-host
 
 Write-Host "Using .NET notation with WindowsIdentity object [Security.Principal.WindowsIdentity]::GetCurrent().Name" -ForegroundColor green
-[Security.Principal.WindowsIdentity]::GetCurrent().Name | out-file -append test.txt
+[Security.Principal.WindowsIdentity]::GetCurrent().Name | out-host
 notepad test.txt
 ```
 
