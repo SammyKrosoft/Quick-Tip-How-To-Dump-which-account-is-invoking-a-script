@@ -12,7 +12,6 @@ Write-Host "Using Powershell $env system variable $env:username" -ForegroundColo
 
 Write-Host "Using .NET notation with WindowsIdentity object [Security.Principal.WindowsIdentity]::GetCurrent().Name" -ForegroundColor green
 [Security.Principal.WindowsIdentity]::GetCurrent().Name | out-host
-notepad test.txt
 ```
 
 And run it using the following from a ```cmd.exe``` shell:
