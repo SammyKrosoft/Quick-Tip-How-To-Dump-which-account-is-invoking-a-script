@@ -14,11 +14,16 @@ Write-Host "Using .NET notation with WindowsIdentity object [Security.Principal.
 [Security.Principal.WindowsIdentity]::GetCurrent().Name | out-host
 ```
 
-And run it using the following from a ```cmd.exe``` shell:
+And run it using the following from either a ```cmd.exe``` shell or a Powershell window:
 
 ```powershell
 runas /user:sammy@hotmail.fr "powershell -noexit -command c:\temp\test.ps1"
 ```
+
+You'll have a new window opening that will look like this:
+
+![image](https://user-images.githubusercontent.com/33433229/122288983-339e7f00-cec0-11eb-9b27-7a1a0fcc8564.png)
+
 
 # Credits
 
