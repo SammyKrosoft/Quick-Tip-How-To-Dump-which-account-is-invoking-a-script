@@ -20,9 +20,12 @@ And run it using the following from either a ```cmd.exe``` shell or a Powershell
 runas /user:sammy@hotmail.fr "powershell -noexit -command c:\temp\test.ps1"
 ```
 
+![image](https://user-images.githubusercontent.com/33433229/122291820-423a6580-cec3-11eb-921b-f207fb47365d.png)
+
 You'll have a new window opening that will look like this:
 
-![image](https://user-images.githubusercontent.com/33433229/122288983-339e7f00-cec0-11eb-9b27-7a1a0fcc8564.png)
+![image](https://user-images.githubusercontent.com/33433229/122291863-541c0880-cec3-11eb-9a29-0ae5fc93db93.png)
+
 
 
 # Credits
