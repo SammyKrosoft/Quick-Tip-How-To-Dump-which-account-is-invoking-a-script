@@ -1,7 +1,7 @@
 # Quick-Tip-How-To-Dump-which-account-is-invoking-a-script
 Just a quick PowerShell tip to remember the different ways to dump the user running a specific script
 
-To try it, write these lines on a ```test.ps1``` quick script:
+To try it, write these lines on a ```c:\temp\test.ps1``` (choose the path and file name you want) quick script:
 
 ```powershell
 Write-Host "Using .NET notation [Environment]::UserName" -ForegroundColor Yellow
@@ -17,7 +17,7 @@ Write-Host "Using .NET notation with WindowsIdentity object [Security.Principal.
 And run it using the following from a ```cmd.exe``` shell:
 
 ```powershell
-runas /user:domain\user "powershell e:\test.ps1"
+runas /user:domain\user "powershell c:\temp\test.ps1"
 ```
 
 # Credits
