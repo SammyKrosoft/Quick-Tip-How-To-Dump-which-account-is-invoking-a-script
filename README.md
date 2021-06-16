@@ -20,6 +20,8 @@ And run it using the following from either a ```cmd.exe``` shell or a Powershell
 runas /user:ComputerName\UserName "powershell -noexit -command c:\temp\test.ps1"
 ```
 
+For example on my Lab environment:
+
 ![image](https://user-images.githubusercontent.com/33433229/122291820-423a6580-cec3-11eb-921b-f207fb47365d.png)
 
 You'll have a new window opening that will look like this:
