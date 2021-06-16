@@ -23,6 +23,6 @@ runas /user:domain\user "powershell e:\test.ps1"
 
 # Credits
 
-Credits for this tip comes to the awesome [Manoj aka "manojlds"](https://stackoverflow.com/users/526535/manojlds) from StackOverflow
+Credits for this tip comes to the awesome [Manoj aka "manojlds"](https://stackoverflow.com/users/526535/manojlds) from StackOverflow, thank you so much for this Manoj :pray:
 
 [Link to the original StackOverflow post](https://stackoverflow.com/questions/7505792/powershell-find-the-user-who-invoked-the-script/7506450#7506450?newreg=64c9cda5a69a4bc485645ca0880419ff)
